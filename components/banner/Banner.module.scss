@@ -1,0 +1,212 @@
+.lines1 {
+  position: absolute;
+  left: -5em;
+  top: 3em;
+}
+
+.intro {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+
+}
+
+.introcont {
+  position: relative;
+  word-wrap: break-word;
+
+  margin-top: 4.5em;
+  margin-left: 3em;
+  width: 70%;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7em;
+  line-height: 150%;
+  /* or 60px */
+
+  color: #FFFFFF;
+}
+
+.logo {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5em;
+
+}
+
+.logocont {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.7em;
+  line-height: 114%;
+  word-wrap: inherit;
+
+  margin-top: 2.6em;
+  width: 50%;
+
+  background: #FFFFFF;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.notes {
+  position: absolute;
+  margin-top: 0.1em;
+  margin-left: 0.2em;
+}
+
+.try {
+  display: inline-block;
+  margin-top: 7em;
+  margin-bottom: 5em;
+  margin-left: 6.4em;
+  width: 60%;
+  background: #FFFFFF;
+  box-shadow: 0 4px 4px #362670;
+  border-radius: 9px;
+  border: 1px solid #FFFFFF;
+  text-decoration: none;
+  transform: skew(-20deg);
+  padding: 16px 0;
+
+  cursor: pointer;
+}
+
+.trycont {
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  background: linear-gradient(92.25deg, #8F5AE0 -10.04%, #37B9C6 116.12%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.try span {
+  transform: skew(20deg);
+  display: inline-block;
+}
+
+.try span:before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  left: -35px;
+  position: absolute;
+
+}
+
+.logoIphone {
+  position: absolute;
+  visibility: hidden;
+}
+
+
+@media screen and (max-width: 951px) {
+  .logocont {
+    font-size: 1.9em;
+  }
+  .notes {
+    width: 1.5em;
+  }
+  .lines1 {
+    width: 17em;
+    margin-left: 0;
+    margin-top: -2em;
+  }
+  .logo {
+    margin-left: 3em;
+    margin-top: 5em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .introcont {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .introcont {
+    font-size: 1.4em;
+  }
+  .logocont {
+    font-size: 1.5em;
+  }
+  .lines1 {
+    width: 12em;
+    margin-left: 1.5em;
+    margin-top: -2em;
+  }
+  .try {
+    width: 50%;
+  }
+  .trycont {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logocont {
+    font-size: 1em;
+    margin-left: -2em;
+    margin-top: 3em;
+  }
+  .lines1 {
+    width: 8em;
+    margin-left: 0.8em;
+  }
+  .introcont {
+    font-size: 1.2em;
+  }
+  .trycont {
+    font-size: 1em;
+  }
+  .try {
+    margin-top: 2em;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .intro {
+    background: linear-gradient(178.75deg, rgba(25, 45, 115, 0.7) -5.68%, rgba(33, 21, 78, 0.385) 98.93%);
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+  .logo {
+    visibility: hidden;
+    position: absolute;
+  }
+  .logoIphone {
+    visibility: visible;
+    position: relative;
+    margin-top: 5em;
+    margin-left: 4em;
+  }
+  .introcont {
+    margin-left: 3em;
+    margin-top: 2em;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+  }
+  .trycont {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .try {
+    width: 373.33px;
+    margin-left: 2em;
+  }
+}

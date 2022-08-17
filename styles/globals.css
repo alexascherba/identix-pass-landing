@@ -1,0 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy';
+    background: linear-gradient(119.63deg, rgba(112, 131, 217, 0.54) 14.26%, rgba(84, 158, 207, 0.29) 83.27%), linear-gradient(189.25deg, #3BB4C5 -4.36%, #9C59E9 126.48%);
+}
+
+
+

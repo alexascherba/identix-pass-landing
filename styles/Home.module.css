@@ -1,0 +1,880 @@
+.main {
+    position: relative;
+    width: 80%;
+    margin: 4em 8em;
+    background: linear-gradient(178.75deg, rgba(25, 45, 115, 0.7) -5.68%, rgba(33, 21, 78, 0.385) 98.93%);
+    border: 0.2em solid rgba(0, 223, 255, 0.51);
+    box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(0.9em);
+    border-radius: 1.3em;
+}
+
+.infoIphone {
+    position: absolute;
+    visibility: hidden;
+}
+
+.profile {
+
+    position: relative;
+    width: 100%;
+    padding-bottom: 5em;
+
+    background: linear-gradient(179.79deg, rgba(255, 255, 255, 0.17) -0.86%, rgba(0, 213, 248, 0.17) 103.66%);
+    backdrop-filter: blur(20px);
+}
+
+.content {
+    text-align: center;
+    padding-top: 1em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-shadow: 2px 5px 6px rgba(43, 42, 74, 0.88);
+}
+
+.info {
+    color: #FFFFFF;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.block1, .block2, .block3, .block4 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 7em;
+    padding-left: 7em;
+    padding-top: 3em;
+}
+
+.lock, .circle, .key, .check {
+    padding-left: 3em;
+}
+
+.razm {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+}
+
+.area1 {
+    grid-area: 1 / 3 / 2 / 4;
+    margin-left: 3em;
+    margin-top: 2em;
+}
+
+.area2 {
+    grid-area: 5 / 1 / 6 / 2;
+    position: absolute;
+    margin-left: 15em;
+    margin-top: 27em;
+}
+
+.area3 {
+    grid-area: 5 / 5 / 6 / 6;
+    position: absolute;
+    margin-left: 41em;
+    margin-top: 27em;
+}
+
+.area4 {
+    grid-area: 2 / 2 / 5 / 5;
+    margin-left: 6em;
+    margin-top: -2em;
+}
+
+.area5 {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.area6 {
+    grid-area: 3 / 5 / 4 / 6;
+}
+
+.area7 {
+    grid-area: 5 / 3 / 6 / 4;
+}
+
+.consepts {
+    position: relative;
+    width: 100%;
+    padding-bottom: 5em;
+}
+
+.udemy, .you, .upwork {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: -0.1em;
+    text-shadow: 2px 5px 6px rgba(43, 42, 74, 0.88);
+}
+
+.udemy {
+    margin-left: 0.2em;
+}
+
+.you {
+    margin-left: 0.9em;
+}
+
+.textarea5, .textarea6, .textarea7 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    word-wrap: break-word;
+    position: absolute;
+    width: 20%;
+
+    color: #FFFFFF;
+}
+
+.textarea5 {
+    margin-left: 11em;
+    margin-top: -4em;
+}
+
+.textarea6 {
+    margin-left: -8em;
+    margin-top: -4em;
+}
+
+.textarea7 {
+    margin-top: -6em;
+}
+
+.cont2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -4em;
+}
+
+.digital {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(179.79deg, rgba(255, 255, 255, 0.17) -4.09%, rgba(0, 213, 248, 0.17) 103.77%);
+    backdrop-filter: blur(20px);
+}
+
+.digitaltext {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    width: 80%;
+    margin-left: 5em;
+    margin-top: 3em;
+
+    color: #FFFFFF;
+}
+
+.digitalimg {
+    position: relative;
+    margin-left: 5em;
+    margin-top: -5em;
+    z-index: 0;
+}
+
+.digitaltext1, .digitaltext2 {
+    position: absolute;
+    z-index: -1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-left: 5em;
+    width: 28%;
+}
+
+.digitaltext1 {
+    margin-top: 10.5em;
+}
+
+.digitaltext2 {
+    margin-top: 24.5em;
+}
+
+.user, .service {
+    position: relative;
+    width: 100%;
+    margin-bottom: 8em;
+}
+
+.usercont, .servicecont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 4.5em;
+    margin-top: 4em;
+}
+
+.cont1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    margin-left: 3em;
+    color: #FFFFFF;
+
+    text-shadow: 2px 5px 6px rgba(43, 42, 74, 0.88);
+}
+
+.usertext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-left: 3em;
+    width: 70%;
+    margin-right: 5em;
+}
+
+.profileName, .marketplace, .services {
+    margin: 0;
+}
+
+.start, .dapps, .log {
+    margin-top: 0;
+}
+
+.servicetext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-left: 1em;
+}
+
+.serviceimg1 {
+    margin-right: 5em;
+    margin-left: 2.5em;
+}
+
+.userimg {
+    margin-left: 1em;
+}
+
+.connect {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(179.79deg, rgba(255, 255, 255, 0.17) 7.79%, rgba(0, 213, 248, 0.17) 113.81%);
+    backdrop-filter: blur(20px);
+
+}
+
+.leave {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 3em;
+}
+
+.submit {
+    display: inline-block;
+    margin-top: 7em;
+    margin-bottom: 5em;
+    margin-left: 6.4em;
+    width: 30%;
+    background: radial-gradient(56.25% 188.12% at 31.89% -6.25%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(103.01deg, #33B7E8 -36.01%, #44CDF0 2.07%, #26AAE8 42.17%, #6171D3 75.13%, #A750FF 119.44%);
+    box-shadow: 0 4px 4px #362670;
+    border-radius: 9px;
+    border: none;
+    text-decoration: none;
+    transform: skew(-20deg);
+}
+
+.submitcont {
+    position: relative;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 150%;
+}
+
+.submit p {
+    transform: skew(20deg);
+    display: inline-block;
+}
+
+.submit p:before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: -35px;
+    position: absolute;
+
+}
+
+.newbut {
+    display: flex;
+    flex-direction: row;
+    margin-left: 9em;
+}
+
+.buttcont {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 6em;
+    margin-left: 1em;
+    color: #FFFFFF;
+}
+
+.trustI {
+    position: absolute;
+    visibility: hidden;
+}
+
+.digitalimgI {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+@media screen and (max-width: 1197px) {
+    .area6 {
+        margin-left: 2em;
+    }
+
+    .area1 {
+        margin-left: 4em;
+    }
+
+    .area7 {
+        margin-left: 2em;
+    }
+}
+
+@media screen and (max-width: 1097px) {
+    .area6 {
+        margin-left: 5em;
+    }
+
+    .area1 {
+        margin-left: 5em;
+    }
+
+    .area7 {
+        margin-left: 4em;
+    }
+
+    .digitalimg {
+        margin-right: 4em;
+    }
+
+    .digitaltext1 {
+        width: 23%;
+        margin-top: 13em;
+    }
+
+    .digitaltext2 {
+        margin-top: 26em;
+        width: 23%;
+    }
+
+    .razm {
+        margin-left: -4em;
+    }
+
+    .newbut {
+        margin-left: 2em;
+    }
+}
+
+@media screen and (max-width: 951px) {
+    .logocont {
+        font-size: 2em;
+    }
+
+    .notes {
+        width: 1.5em;
+    }
+
+    .lines1 {
+        width: 17em;
+        margin-left: 0;
+        margin-top: -2em;
+    }
+
+    .logo {
+        margin-left: 3em;
+        margin-top: 5em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        font-size: 2em;
+    }
+
+    .introcont {
+        font-size: 1.5em;
+    }
+
+    .cont1 {
+        font-size: 1.5em;
+        margin-left: 3.5em;
+    }
+
+    .block1, .block2, .block3, .block4 {
+        width: 90%;
+        margin-left: -3em;
+    }
+
+    .area7 {
+        margin-top: -4em;
+        margin-left: 3em;
+    }
+
+    .area5 {
+        margin-left: -4em;
+        margin-top: -2em;
+    }
+
+    .area6 {
+        margin-left: 7em;
+        margin-top: -2em;
+    }
+
+    .area2 {
+        margin-left: 13em;
+        margin-top: 25em;
+    }
+
+    .area3 {
+        margin-left: 36em;
+        margin-top: 25em;
+    }
+
+    .digitaltext {
+        font-size: 1em;
+        margin-bottom: 3em;
+    }
+
+    .digitaltext1 {
+        font-size: 0.8em;
+        margin-left: 7em;
+        margin-top: 7.5em;
+    }
+
+    .digitaltext2 {
+        font-size: 0.8em;
+        margin-left: 7em;
+        margin-top: 20em;
+    }
+
+    .usertext, .servicetext {
+        font-size: 0.9em;
+    }
+
+    .leave {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .content {
+        font-size: 1.4em;
+    }
+
+    .lock, .circle, .key, .check {
+        font-size: 0.8em;
+        margin-right: 3em;
+    }
+
+    .textarea5, .textarea6, .textarea7 {
+        font-size: 0.8em;
+    }
+
+    .textarea5 {
+        margin-left: 17em;
+    }
+
+    .textarea6 {
+        margin-left: -11em;
+    }
+
+    .textarea7 {
+        margin-top: -7em;
+    }
+
+    .area2 {
+        margin-left: 12em;
+        margin-top: 23em;
+    }
+
+    .area3 {
+        margin-left: 33em;
+        margin-top: 23em;
+    }
+
+    .udemy, .upwork, .you {
+        font-size: 1em;
+    }
+
+    .cont2 {
+        font-size: 1.1em;
+        margin-top: -10em;
+    }
+
+    .digitaltext {
+        font-size: 0.9em;
+    }
+
+    .digitaltext1, .digitaltext2 {
+        font-size: 0.7em;
+    }
+
+    .cont1 {
+        font-size: 1.1em;
+        margin-left: 5em;
+    }
+
+    .usertext, .servicetext {
+        font-size: 0.8em;
+    }
+
+    .leave {
+        font-size: 0.9em;
+    }
+
+    .submitcont, .buttcont {
+        font-size: 0.9em;
+    }
+
+    .buttcont {
+        margin-top: 7em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .lock, .circle, .key, .check {
+        font-size: 0.65em;
+        margin-right: 5em;
+    }
+
+    .info {
+        margin-top: -2em;
+    }
+
+    .udemy, .upwork, .you {
+        font-size: 0.8em;
+    }
+
+    .textarea5, .textarea6, .textarea7 {
+        font-size: 0.6em;
+    }
+
+    .textarea5 {
+        margin-left: 21em;
+        margin-top: -6em;
+    }
+
+    .textarea6 {
+        margin-left: -14em;
+        margin-top: -6em;
+    }
+
+    .textarea7 {
+        margin-top: -11.5em;
+    }
+
+    .area2 {
+        margin-left: 10.5em;
+        margin-top: 16em;
+        width: 3em;
+    }
+
+    .area3 {
+        margin-left: 25.5em;
+        margin-top: 16em;
+        width: 3em;
+    }
+
+    .cont2 {
+        margin-top: -12.5em;
+    }
+
+    .digitaltext {
+        font-size: 0.7em;
+    }
+
+    .digitaltext1, .digitaltext2 {
+        font-size: 0.5em;
+        margin-left: 10em;
+    }
+
+    .digitaltext1 {
+        margin-top: 7em;
+    }
+
+    .digitaltext2 {
+        margin-top: 19em;
+    }
+
+    .cont1 {
+        font-size: 1.1em;
+        margin-left: 5em;
+    }
+
+    .usertext, .servicetext {
+        font-size: 0.6em;
+    }
+
+    .userimg, .serviceimg1 {
+        width: 27em;
+    }
+
+    .leave {
+        font-size: 0.8em;
+    }
+
+    .submitcont, .buttcont {
+        font-size: 0.7em;
+    }
+
+    .buttcont {
+        margin-top: 8.5em;
+    }
+
+    .newbut {
+        margin-left: -1em;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .main {
+        position: relative;
+        box-sizing: border-box;
+        width: 430px;
+        margin: 0;
+        background-image: url(../public/lines.png);
+        border: 0;
+        box-shadow: none;
+        backdrop-filter: blur(0.9em);
+        border-radius: 0;
+    }
+
+    .profile, .consepts, .digital, .user, .service, .connect {
+        width: 430px;
+    }
+
+    .profile {
+        background: linear-gradient(179.79deg, rgba(255, 255, 255, 0.17) -4.09%, rgba(0, 213, 248, 0.17) 103.77%);
+        margin-top: -1.3em;
+    }
+
+    .content {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 150%;
+        width: 90%;
+        margin-left: 0.8em;
+    }
+
+    .info {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .block1, .block2, .block3, .block4 {
+        margin-left: -20em;
+    }
+
+    .infoIphone {
+        position: relative;
+        visibility: visible;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3em;
+    }
+
+    .keyI, .lockI, .circleI, .checkI {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .consepts {
+        background: linear-gradient(178.75deg, rgba(25, 45, 115, 0.7) -5.68%, rgba(33, 21, 78, 0.385) 98.93%);
+        padding-bottom: 0;
+        margin-top: -1.3em;
+    }
+
+    .razm {
+        visibility: hidden;
+    }
+
+    .cont2 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: -29em;
+    }
+
+    .trustI {
+        visibility: visible;
+        position: relative;
+        margin-top: -11em;
+        margin-left: 1em;
+    }
+
+    .digital {
+        background: linear-gradient(179.79deg, rgba(255, 255, 255, 0.17) -4.09%, rgba(0, 213, 248, 0.17) 103.77%);
+        backdrop-filter: blur(20px);
+        margin-top: -1.25em;
+    }
+
+    .digitaltext {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        margin-right: 0;
+        margin-left: 1.6em;
+
+        text-align: left;
+        width: 90%;
+    }
+
+    .digitalimgtext {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .digitalimgI {
+        position: relative;
+        visibility: visible;
+        padding-bottom: 2em;
+    }
+
+    .user, .service {
+        background: linear-gradient(178.75deg, rgba(25, 45, 115, 0.7) -5.68%, rgba(33, 21, 78, 0.385) 98.93%);
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(12px);
+    }
+
+    .user {
+        margin-top: -1.25em;
+        margin-bottom: 0;
+        padding-bottom: 3em;
+    }
+
+    .service {
+        margin-top: -1.2em;
+        margin-bottom: 0;
+        padding-bottom: 3em;
+    }
+
+    .cont1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 1em;
+    }
+
+    .usercont {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 2em;
+        padding-right: 2em;
+        text-align: left;
+    }
+
+    .servicecont {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 2em;
+        padding-right: 2em;
+        text-align: left;
+    }
+
+    .usertext, .servicetext {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .userimg, .serviceimg1 {
+        width: 380px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .connect {
+        margin-top: -1.2em;
+        background: linear-gradient(179.82deg, rgba(219, 226, 255, 0.17) 2.79%, rgba(142, 189, 255, 0.17) 81.04%);
+        backdrop-filter: blur(20px);
+    }
+
+    .leave {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .newbut {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .submit {
+        text-align: center;
+        width: 373px;
+        margin-left: 3.5em;
+        margin-top: 2em;
+        margin-bottom: 0;
+    }
+
+    .submitcont {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .buttcont {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }
+}
